@@ -131,7 +131,7 @@ def evaluate(model, loader):
 
     return correct / total
 
-epochs = 25
+epochs = 50
 
 for epoch in range(epochs):
     train_loss = train_epoch(model, train_loader)
